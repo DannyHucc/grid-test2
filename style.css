@@ -6,3 +6,10 @@
     text-align: center;
     border: 2px solid;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 100px 100px;
+    grid-template-rows: 50px 100px;
+    grid-gap: 20px 10px;
+}
